@@ -1,0 +1,313 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import "https://fonts.googleapis.com/css?family=Open+Sans";
+@import url('https://fonts.googleapis.com/css?family=Courgette');
+
+	body {
+		background-color: white;
+		padding: 0;
+		height: 100%;
+		margin: 0;
+	}
+	header {
+		margin: 0;
+		padding-top: 100px;
+		padding-bottom: 50px;
+		border: 0;
+		font-size: 3em;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: center;
+		letter-spacing: -.07em;
+		vertical-align: baseline;
+	}
+	.menu, .phoneMenu {
+		margin: 0;
+		border: 0;
+		vertical-align: baseline;
+		font-size: .6em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 0.2em;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.menu a{
+		text-decoration: none;
+		text-align: center;
+		color: black;
+		font-size: 1.6em;
+		padding: 1.5em;
+	}
+	.tile a{
+		text-decoration: none;
+		color: black;
+	}
+	.tile a:hover{
+		color: #4184b3;
+	}
+	.phoneMenu a{
+		text-decoration: none;
+		text-align: center;
+		color: black;
+		font-size: 3em;
+		padding: 0;
+		padding-left: .5em;
+		padding-right: .5em;
+	}
+	.menu a:hover {
+    color: #418fb3;
+	}
+	.welcomeContainer {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		padding-bottom: 30px;
+		text-align: center;
+		padding-top: 100px;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	.tile {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 1em;
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+	.tile img {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		opacity: 0.7;
+		filter: grayscale(50%);
+	}
+	.tile img:hover {
+		opacity: 1;
+		filter: grayscale(0%);
+	}
+	.tile h2{
+		font-size: 1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+	.aboutHeader {
+		background-image: url("/images/TraveNorway01.JPG");
+		height: 100px;
+		width: 100%;
+		background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+		padding: 0px;
+		margin: 0px;
+	}
+	.aboutContainer {
+		background-image: url("/images/TraveNorway01.JPG");
+		height: 600px;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		/*parralax*/
+		background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+		padding: 0px;
+		margin: 0px;
+	}
+	.about {
+		margin-left: 35%;
+		width: 55%;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		background-color: white;
+		color: black;
+	}
+	.text {
+		margin-left: 25px;
+		margin-right: 25px;
+		color: black;
+	}
+	.text h1 {
+		font-size: 1em;
+	}
+	.text p {
+		font-size: .3em;
+		color: black;
+	}
+	.text h1,p {
+		color: black;
+		padding: 5px;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+	}
+	.footer{
+		padding-top: 10px;
+		padding-bottom: 50px;
+		background-color: #418fb3;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white
+	}
+	.footer h1{
+		padding-bottom: 0;
+		padding-top: 7px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin: 0;
+		font-size: 1em;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: left;
+		letter-spacing: -.01em;
+	}
+	.footerSection {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin: 0;
+		width: 100%;
+	}
+	.socialBar {
+		padding-left: 10px;
+		padding-top: 10px;
+		display: flex;
+		width: 70%;
+		justify-content: space-around;
+		text-align: left;
+	}
+	.socialBar a{
+		text-decoration: none;
+		color: white;
+		padding: 2px;
+		font-size: 1.5em;
+	}
+	.footerSection h2 {
+		padding: 5px;
+		color: white;
+		margin: 0;
+		font-size: 1em;
+	}
+	.footerSection p {
+		color: white;
+		margin: 0;
+	}
+	h1 {
+		font-size: .2em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+	}
+
+	header a {
+		text-decoration: none;
+		text-align: center;
+		color: black;
+	}
+
+	@media screen and (min-width: 480px) {
+			.phoneMenu{
+				display: none;
+			}
+	}
+	@media screen and (min-width: 900px) {
+		.welcomeContainer {
+			padding-left: 8em;
+			padding-right: 8em;
+		}
+	}
+	@media screen and (min-width: 851px) {
+		.aboutHeader {
+			display: none;
+		}
+	}
+	@media screen and (max-width: 850px) {
+		.aboutContainer {
+			margin: 0;
+			padding: 0;
+			padding-top: 25px;
+			padding-bottom: 25px;
+			background-color: white;
+			background-image: none;
+			height: 100%
+		}
+		.about {
+			margin: 0;
+			padding: 0;
+			width: 100%
+		}
+	}
+	@media screen and (max-width: 550px) {
+		.welcomeContainer {
+			flex-direction: column;
+			flex-wrap: wrap;
+			padding-top: 50px;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+		.footer{
+			flex-direction: column;
+		}
+		.footerSection {
+			flex-direction: row;
+		}
+		.footerSection h1 {
+			padding-top: 5px;
+		}
+		.socialBar {
+			width: 40%;
+			padding: 0;
+		}
+		.tile img {
+			opacity: 1;
+			filter: grayscale(0%);
+		}
+		.aboutContainer {
+        background-attachment: scroll;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		body {
+			margin: 0;
+		}
+		header {
+			padding-top: .7em;
+			padding-bottom: 10px;
+			font-size: 2.5em;
+		}
+		.header h1 {
+			color: darkgrey;
+			font-size: .1em;
+
+		}
+		.menu {
+			display: none;
+		}
+		.phoneMenu {
+			display: flex;
+		}
+		.welcomeContainer {
+			flex-direction: column;
+			flex-wrap: wrap;
+			padding-top: 20px;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
+		.tile {
+			padding: 0;
+			margin: 0;
+		}
+	}
