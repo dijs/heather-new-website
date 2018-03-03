@@ -1,0 +1,23 @@
+{
+  "name": "heather-new-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dijs/heather-new-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dijs/heather-new-website/issues"
+  },
+  "homepage": "https://github.com/dijs/heather-new-website#readme",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
