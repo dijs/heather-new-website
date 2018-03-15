@@ -21,6 +21,120 @@
 		letter-spacing: -.07em;
 		vertical-align: baseline;
 	}
+	a {
+		text-decoration: none;
+	}
+
+	.workProgress a{
+		background-color: #b34141;
+		width: 50%;
+		padding: 10px;
+		text-align: center;
+		margin-left: 25%;
+		margin-top: -20px;
+		color: white;
+	}
+	.workProgress {
+		background-color: #b34141;
+		width: 50%;
+		padding: 10px;
+		text-align: center;
+		margin-left: 25%;
+		margin-top: -20px;
+		color: white;
+	}
+	.space {
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+	.left p{
+		padding: 0;
+	}
+	.break {
+		height: 110px;
+	}
+	.column-3 {
+		width: 30%;
+	}
+	.resume {
+		margin: 0;
+		padding: 0;
+		padding-bottom: 30px;
+		background-color: #4184b3;
+	}
+	.indent {
+		text-indent: 3em;
+		line-height: .5em;
+		padding: 0;
+		margin: 0;
+	}
+	.contactHeader {
+		display: flex;
+		margin: 0;
+		border: 0;
+		font-size: 2em;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: left;
+		letter-spacing: -.07em;
+		vertical-align: baseline;
+		width: 100%;
+	}
+	.headerLogo {
+		margin: 30px;
+		min-width: 260px;
+		width: 50%;
+	}
+	.contactHeader h1 {
+			font-size: .1em;
+		  color: #4184b3;
+			letter-spacing: .15em;
+		}
+	.contactHeader a{
+		color: #4184b3;
+		text-decoration: none;
+	}
+	.contactSection {
+		background-color: #1a5782;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.contactSection2 {
+		background-color: #4184b3;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.serviceSection {
+		background-color: #efefef;
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.serviceRow {
+		display: flex;
+		justify-content: space-around;
+	}
+	.serviceOption h2{
+		color: #4184b3;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-size: 1em;
+		letter-spacing: .2em;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	.serviceOption i{
+		color: #4184b3;
+		font-size: 4em;
+	}
+	.serviceOption {
+		text-align: center;
+	}
 	.menu, .phoneMenu {
 		margin: 0;
 		border: 0;
@@ -41,11 +155,59 @@
 		font-size: 1.6em;
 		padding: 1.5em;
 	}
+	.contactMenu {
+		padding-top: 2em;
+		margin: 30px;
+		border: 0;
+		width: 50%;
+		text-align: right;
+		font-size: .6em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		color: #4184b3;
+		letter-spacing: 0.2em;
+		justify-content: right;
+	}
+	.contactMenu a{
+		text-decoration: none;
+		text-align: right;
+		color: #4184b3;
+		font-size: 1em;
+		padding: 0;
+	}
+	.shortMenu{
+		margin: 0;
+		border: 0;
+		vertical-align: baseline;
+		font-size: .6em;
+		padding: 0;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		text-align: center;
+		letter-spacing: 0.2em;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+	.shortMenu a{
+		text-decoration: none;
+		text-align: center;
+		color: black;
+		font-size: 1.6em;
+		padding: 1.5em;
+	}
 	.tile a{
 		text-decoration: none;
 		color: black;
 	}
 	.tile a:hover{
+		color: #4184b3;
+	}
+	.portfolioTile a{
+		text-decoration: none;
+		color: black;
+	}
+	.portfolioTile a:hover{
 		color: #4184b3;
 	}
 	.phoneMenu a{
@@ -66,7 +228,7 @@
 		justify-content: center;
 		padding-bottom: 30px;
 		text-align: center;
-		padding-top: 100px;
+		padding-top: 30px;
 		padding-left: 2em;
 		padding-right: 2em;
 	}
@@ -96,6 +258,41 @@
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
 	}
+	.portfolioTile h3{
+		font-size: .75em;
+		font-style: italic;
+		line-height: 0.1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+	.portfolioTile {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 1em;
+		padding-left: 0;
+		padding-right: 0;
+		width: 100%;
+	}
+	.portfolioTile img {
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+		opacity: 1;
+		filter: grayscale(0%);
+	}
+	.portfolioTile img:hover {
+		opacity: 0.7;
+		filter: grayscale(50%);
+	}
+	.portfolioTile h2{
+		font-size: 1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
+
 	.aboutHeader {
 		background-image: url("/images/TraveNorway01.JPG");
 		height: 100px;
@@ -122,6 +319,7 @@
     background-size: cover;
 		padding: 0px;
 		margin: 0px;
+		margin-top: 50px;
 	}
 	.about {
 		margin-left: 35%;
@@ -173,6 +371,31 @@
 		text-align: left;
 		letter-spacing: -.01em;
 	}
+	.lightFooter{
+		padding-top: 10px;
+		padding-bottom: 50px;
+		background-color: #f5f4f0;
+		display: flex;
+		flex-direction: row;
+		align-items: flex-start;
+		justify-content: flex-start;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+	  color: #418fb3;
+	}
+	.lightFooter h1{
+		padding-bottom: 0;
+		padding-top: 7px;
+		padding-left: 20px;
+		padding-right: 20px;
+		color: #418fb3;
+		margin: 0;
+		font-size: 1em;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: left;
+		letter-spacing: -.01em;
+	}
 	.footerSection {
 		display: flex;
 		flex-direction: column;
@@ -190,21 +413,163 @@
 		justify-content: space-around;
 		text-align: left;
 	}
+	.bigSocial {
+		padding-left: 15%;
+		padding-top: 10px;
+		display: flex;
+		width: 70%;
+		justify-content: space-around;
+		text-align: left;
+	}
+	.bigSocial a{
+		color: white;
+		text-decoration: none;
+		text-align: center;
+		padding: 20px;
+		font-size: 50px;
+		/* HOVER OFF */
+		-webkit-transition: padding 0.5s, font-size 0.5s;
+   	-moz-transition: padding 0.5s, font-size 0.5s;
+    -o-transition: padding 0.5s, font-size 0.5s;
+    transition: padding 0.5s, font-size 0.5s;
+	}
+	.bigSocial a:hover{
+		font-size: 60px;
+		padding: 15px;
+  	/* HOVER ON */
+		-webkit-transition: padding 0.5s, font-size 0.5s;
+   	-moz-transition:  padding 0.5s, font-size 0.5s;
+    -o-transition: padding 0.5s, font-size 0.5s;
+    transition: padding 0.5s, font-size 0.5s;
+	}
+	.contactSection h2{
+		padding-left: 15%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+	.contactSection2 h2{
+		padding-left: 15%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+	.serviceSection h1 {
+		font-size: 3em;
+    font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-align: center;
+		letter-spacing: -.04em;
+		color: #418fb3;
+		font-weight: lighter;
+	}
+	.list {
+		text-align: left;
+		display:flex;
+		margin-left: 5%;
+	}
+	.left{
+		text-align: left;
+		display: flex;
+		padding-bottom: .5em;
+	}
+	.list h2{
+		padding-left: 15%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 1em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+	.resume h1 {
+		font-size: 3em;
+		margin: 0;
+		padding: 0;
+		padding-top: 30px;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-align: center;
+		letter-spacing: -.04em;
+		color: white;
+		font-weight: lighter;
+	}
+	.contactSection h3 {
+		padding-left: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: left;
+		font-size: .3em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+	.contactSection2 h3 {
+		padding-left: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		text-align: left;
+		font-size: .3em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+	.contactSection strong{
+		font-size: 2em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0em;
+		font-weight: bolder;
+		color: white;
+		text-transform: uppercase;
+	}
+	.contactSection2 strong{
+		font-size: 2em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0em;
+		font-weight: bolder;
+		color: white;
+		text-transform: uppercase;
+	}
+	.blue a{
+		color: #418fb3!important;
+	}
+	.blue{
+		color: #418fb3!important;
+	}
+	.blue p{
+		color: #418fb3!important;
+	}
+	.white a{
+		color: white;
+	}
+	.white{
+		color: white;
+	}
 	.socialBar a{
 		text-decoration: none;
-		color: white;
 		padding: 2px;
 		font-size: 1.5em;
 	}
 	.footerSection h2 {
 		padding: 5px;
-		color: white;
 		margin: 0;
 		font-size: 1em;
 	}
 	.footerSection p {
 		color: white;
 		margin: 0;
+		font-size: .2em;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		letter-spacing: 0.2em;
 	}
 	h1 {
 		font-size: .2em;
@@ -212,6 +577,22 @@
 		letter-spacing: 0.2em;
 	}
 
+	.contactSection h1 {
+		font-size: 3em;
+    font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-align: center;
+		letter-spacing: -.07em;
+		color: white;
+		font-weight: normal;
+	}
+	.contactSection2 h1 {
+		font-size: 3em;
+    font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-align: center;
+		letter-spacing: -.07em;
+		color: white;
+		font-weight: normal;
+	}
 	header a {
 		text-decoration: none;
 		text-align: center;
@@ -224,7 +605,7 @@
 			}
 	}
 	@media screen and (min-width: 900px) {
-		.welcomeContainer {
+		.welcomeContainer{
 			padding-left: 8em;
 			padding-right: 8em;
 		}
@@ -244,6 +625,10 @@
 			background-image: none;
 			height: 100%
 		}
+		.welcomeContainer {
+			padding-top: 10px;
+			padding-bottom: 0;
+		}
 		.about {
 			margin: 0;
 			padding: 0;
@@ -254,7 +639,8 @@
 		.welcomeContainer {
 			flex-direction: column;
 			flex-wrap: wrap;
-			padding-top: 50px;
+			padding-top: 10px;
+			padding-bottom: 0;
 			padding-left: 1em;
 			padding-right: 1em;
 		}
@@ -275,6 +661,10 @@
 			opacity: 1;
 			filter: grayscale(0%);
 		}
+		.portfolioTile img {
+			opacity: 1;
+			filter: grayscale(0%);
+		}
 		.aboutContainer {
         background-attachment: scroll;
 		}
@@ -291,7 +681,6 @@
 		.header h1 {
 			color: darkgrey;
 			font-size: .1em;
-
 		}
 		.menu {
 			display: none;
@@ -302,11 +691,11 @@
 		.welcomeContainer {
 			flex-direction: column;
 			flex-wrap: wrap;
-			padding-top: 20px;
+			padding-top: 15px;
 			padding-left: 1em;
 			padding-right: 1em;
 		}
-		.tile {
+		.tile, .portfolioTile {
 			padding: 0;
 			margin: 0;
 		}
