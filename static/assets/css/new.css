@@ -431,26 +431,18 @@
 		justify-content: space-around;
 		text-align: left;
 	}
-	.bigSocial a{
+	.bigSocial a {
 		color: white;
 		text-decoration: none;
-		text-align: center;
-		padding: 20px;
 		font-size: 50px;
 		/* HOVER OFF */
-		-webkit-transition: padding 0.5s, font-size 0.5s;
-   	-moz-transition: padding 0.5s, font-size 0.5s;
-    -o-transition: padding 0.5s, font-size 0.5s;
-    transition: padding 0.5s, font-size 0.5s;
+		transition-duration: 0.5s;
 	}
-	.bigSocial a:hover{
-		font-size: 60px;
-		padding: 15px;
-  	/* HOVER ON */
-		-webkit-transition: padding 0.5s, font-size 0.5s;
-   	-moz-transition:  padding 0.5s, font-size 0.5s;
-    -o-transition: padding 0.5s, font-size 0.5s;
-    transition: padding 0.5s, font-size 0.5s;
+	.bigSocial a:nth-of-type(2n+1):hover {
+		transform: scale(1.5) rotateZ(-10deg);
+	}
+	.bigSocial a:nth-of-type(2n):hover {
+		transform: scale(1.5) rotateZ(10deg);
 	}
 	.contactSection h2{
 		padding-left: 15%;
