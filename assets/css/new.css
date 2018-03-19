@@ -47,7 +47,6 @@
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
-
 	.left p{
 		padding: 0;
 	}
@@ -80,6 +79,9 @@
 		letter-spacing: -.07em;
 		vertical-align: baseline;
 		width: 100%;
+	}
+	.contactHeader.center {
+		justify-content: center;
 	}
 	.headerLogo {
 		margin: 30px;
@@ -522,9 +524,9 @@
 	}
 	.contactSection2 h3 {
 		padding-left: 0;
-		padding-top: 10px;
+		padding-top: 0;
 		padding-bottom: 10px;
-		text-align: left;
+		text-align: center;
 		font-size: .3em;
 		font-family: "Open Sans", Arial, Helvetica, sans-serif;
 		letter-spacing: 0.2em;
