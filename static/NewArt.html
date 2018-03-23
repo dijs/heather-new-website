@@ -8,6 +8,52 @@
 		<meta name="p:domain_verify" content="b6611d28271db4c5fa3130e011a816c0"/>
 		<link rel="stylesheet" href="assets/css/new.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+		<!--Javascript-->
+		<!--Documentation for slick carousel at http://kenwheeler.github.io/slick/-->
+		<script>
+			$(document).ready(function(){
+			$('.watercolor').slick({
+				slidesToShow: 5,
+  			slidesToScroll: 1,
+				dots: true,
+  			infinite: true,
+				centerMode: true,
+				arrows: true,
+  			variableWidth: true,
+				lazyLoad: 'ondemand',
+				responsive: [
+    			{
+      				breakpoint: 1024,
+				      settings: {
+				        slidesToShow: 3,
+				        slidesToScroll: 3,
+				        infinite: true,
+				        dots: true
+				      }
+    			},
+			    {
+			      breakpoint: 600,
+			      settings: {
+			        slidesToShow: 2,
+			        slidesToScroll: 2
+			      }
+			    },
+			    {
+			      breakpoint: 480,
+			      settings: {
+			        slidesToShow: 1,
+			        slidesToScroll: 1
+			      }
+			    }
+			  ]
+			});
+			});
+		</script>
 
 	<body>
 		<header id="header">
@@ -35,7 +81,107 @@
 						<h1>THIS IS IN PROGRESS, COME BACK!</h1>
 					</div>
 			</div>
+			<div class="right-carousel">
+				<div class="carousel-lable">
+					<h1 class="carousel-title">Watercolor Works</h1>
+					<h2 class="carousel-title">When I travel, one of my favorite mediums is watercolor. In some instances, the water I use is from the location I paint. I try to keep my watercolor illlustrations loose, comfortable, and inviting.</h2>
+				</div>
+				<!--carousel 1-->
+				<div class="watercolor">
+				  <div>
+						<img src="/images/2018portfolio/mossiac-gecco-vanderdys-watercolor-2018.png"
+									alt="mossiac gecco | vanderdys | watercolor | 2018">
+					</div>
+					<div>
+						<img src="/images/2018portfolio/the-florist-vanderdys-watercolor-2018.png"
+									alt="the florist | vanderdys | watercolor | 2018">
+					</div>
+					<div>
+						<img src="/images/2018portfolio/san-francisco-china-town-vanderdys-watercolor-2018.png"
+									alt="San francico | China Town | vanderdys | watercolor | 2018">
+					</div>
+					<div>
+						<img src="/images/2018portfolio/san-francico-christmas-wagon-vanderdys-watercolor-2018.png"
+									alt="San francico | vanderdys | watercolor | 2018">
+					</div>
+					<div>
+						<img src="/images/2018portfolio/san-francico-tram-vanderdys-watercolor-2018.png"
+									alt="San francico | tram | vanderdys | watercolor | 2018">
+					</div>
+					<div>
+						<img src="/images/2018portfolio/san-francisco-trolly-vanderdys-watercolor-2018.png"
+									alt="San francico | trolly | vanderdys | watercolor | 2018">
+					</div>
+				</div>
+			</div>
+			<div class="left-carousel">
+				<!--carousel 2-->
+				<div class="watercolor">
+				  <div>
+						<img src="/images/2018portfolio/digital-art-g-trypography-2018-vanderdys.png"
+									alt="Typography Diagram | vanderdys | digital | 2018">
+					</div>
+					<div>
+						<img src="/images/2018portfolio/digital-art-stPattiesday-2018-vanderdys.png"
+									alt="Saint Patties Green Beer | vanderdys | digital | 2018">
+					</div>
+					<div>
+						<img src="/images/HomeTile001.png"
+									alt="placeholder">
+					</div>
+					<div>
+						<img src="/images/HomeTile001.png"
+									alt="placeholder">
+					</div>
+					<div>
+						<img src="/images/HomeTile001.png"
+									alt="placeholder">
+					</div>
+					<div>
+						<img src="/images/HomeTile001.png"
+									alt="placeholder">
+					</div>
+				</div>
+				<!--lable-->
+				<div class="carousel-lable">
+					<h1 class="carousel-title">Digital Illustrations</h1>
+					<h2 class="carousel-title">Whether Commisioned or not, I strive to remember that we live in a digital age. Therefore, I push my self to create digital art through photoshop and illustrator.</h2>
+				</div>
+			</div>
 
+			<div class="right-carousel">
+				<div class="carousel-lable">
+					<h1 class="carousel-title">Acrylic Paint</h1>
+					<h2 class="carousel-title">Due to our relocation to Romania in late 2017, I have become a friend of this easy to clean and easy to purchase medium. I use this art as a stress reliever, so these works some in seasons and are uncommissioned.</h2>
+				</div>
+				<!--carousel 3-->
+				<div class="watercolor">
+				  <div>
+						<img src="/images/HomeTile001.png"
+									alt="placeholder">
+					</div>
+					<div>
+						<img src="/images/HomeTile001.png"
+									alt="placeholder">
+					</div>
+					<div>
+						<img src="/images/HomeTile001.png"
+									alt="placeholder">
+					</div>
+					<div>
+						<img src="/images/HomeTile001.png"
+									alt="placeholder">
+					</div>
+					<div>
+						<img src="/images/HomeTile001.png"
+									alt="placeholder">
+					</div>
+					<div>
+						<img src="/images/HomeTile001.png"
+									alt="placeholder">
+					</div>
+				</div>
+			</div>
 			<!-- main home page -->
 			<div class="welcomeContainer">
 				<div class="tile col-sm-4">
