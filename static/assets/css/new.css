@@ -701,8 +701,22 @@
 		.aboutHeader {
 			display: none;
 		}
+		h1.carousel-title {
+			font-size: 2em;
+			color: white;
+			letter-spacing: -.02em;
+			margin-left: 20px;
+			font-family: "Courgette", Arial, Helvetica, sans-serif;
+		}
 	}
 	@media screen and (max-width: 850px) {
+		h1.carousel-title {
+			font-size: 2em;
+			color: white;
+			letter-spacing: -.02em;
+			margin-left: 20px;
+			font-family: "Courgette", Arial, Helvetica, sans-serif;
+		}
 		.list h3 {
 			font-size: .7em;
 		}
