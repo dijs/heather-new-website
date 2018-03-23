@@ -710,6 +710,9 @@
 		}
 	}
 	@media screen and (max-width: 850px) {
+		.full-carousel {
+			width: 96.7%;
+		}
 		h1.carousel-title {
 			font-size: 2em;
 			color: white;
@@ -757,6 +760,9 @@
 		}
 	}
 	@media screen and (max-width: 550px) {
+		.full-carousel {
+			width: 94%;
+		}
 		.list{
 			display: block;
 		}
