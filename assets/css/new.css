@@ -30,11 +30,6 @@
     margin-left: 3em;
 		margin-right: 3em;
 	}
-	.full-width {
-		width: 100%;
-		display: flex;
-    margin-left: 3em;
-		margin-right: 3em;
 	}
 	h1.carousel-title {
 		margin: 0;
@@ -708,6 +703,26 @@
 		}
 	}
 	@media screen and (max-width: 850px) {
+		.list h3 {
+			font-size: .7em;
+		}
+		.list {
+			margin-left: 10%;
+		}
+		.serviceRow {
+    flex-wrap: wrap;
+		}
+		.right-carousel, .left-carousel {
+			display: block;
+			padding-bottom: .5em;
+		}
+		.carousel-lable {
+			width: 100%;
+		}
+		.watercolor, .full-width {
+			display: block;
+	    width: 90%;
+		}
 		.aboutContainer {
 			margin: 0;
 			padding: 0;
@@ -728,6 +743,32 @@
 		}
 	}
 	@media screen and (max-width: 550px) {
+		.list{
+			display: block;
+		}
+		.column-3 {
+			width: 100%;
+		}
+		.list h3 {
+			font-size: 1em;
+		}
+		.serviceOption {
+    	padding: 1em;
+		}
+		.watercolor, .full-width {
+			display: block;
+	    width: 82%;
+		}
+		h1.carousel-title {
+			font-size: 2em;
+			color: white;
+			letter-spacing: -.02em;
+			margin-left: 20px;
+			font-family: "Courgette", Arial, Helvetica, sans-serif;
+		}
+		button.slick-prev, .slick-next {
+			display: none;
+		}
 		.welcomeContainer {
 			flex-direction: column;
 			flex-wrap: wrap;
@@ -736,18 +777,29 @@
 			padding-left: 1em;
 			padding-right: 1em;
 		}
-		.footer{
+		.footer, .lightFooter{
 			flex-direction: column;
+			padding-left: 2em;
 		}
 		.footerSection {
-			flex-direction: row;
+			flex-direction: column;
 		}
 		.footerSection h1 {
 			padding-top: 5px;
+			padding-left: 0;
+			margin-left: 0;
+		}
+		.socialBar {
+	    width: 100%;
+	    padding: 0;
+	    margin-left: -6px;
 		}
 		.socialBar {
 			width: 40%;
 			padding: 0;
+		}
+		.portfolioTile, .tile {
+			 width: 95%;
 		}
 		.tile img {
 			opacity: 1;
@@ -759,6 +811,10 @@
 		}
 		.aboutContainer {
         background-attachment: scroll;
+		}
+		.workProgress {
+			  margin-top: 0px;
+				margin-bottom: 10px;
 		}
 	}
 	@media screen and (max-width: 480px) {
@@ -773,6 +829,8 @@
 		.header h1 {
 			color: darkgrey;
 			font-size: .1em;
+			padding-left: 2em;
+			padding-right: 2em;
 		}
 		.menu {
 			display: none;
