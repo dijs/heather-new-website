@@ -604,7 +604,12 @@
 		filter: hue-rotate(45deg);
 		filter: blur(2px);
 	}
+	.image1 {
+		background-image: url(/images/2018Norway-Fjord-Preview.png);
+		width: 100%;
+		height: 100%;
 
+	}
 	@media screen and (min-width: 480px) {
 			.phoneMenu{
 				display: none;
