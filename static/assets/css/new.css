@@ -798,6 +798,9 @@
 			width: 40%;
 			padding: 0;
 		}
+		.portfolioTile, .tile {
+			 width: 95%;
+		}
 		.tile img {
 			opacity: 1;
 			filter: grayscale(0%);
@@ -808,6 +811,10 @@
 		}
 		.aboutContainer {
         background-attachment: scroll;
+		}
+		.workProgress {
+			  margin-top: 0px;
+				margin-bottom: 10px;
 		}
 	}
 	@media screen and (max-width: 480px) {
