@@ -24,7 +24,64 @@
 	a {
 		text-decoration: none;
 	}
-
+	.watercolor {
+		width: 66%;
+		display: flex;
+    margin-left: 3em;
+		margin-right: 3em;
+	}
+	h1.carousel-title {
+		margin: 0;
+		border: 0;
+		font-size: 2em;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: left;
+		letter-spacing: -.04em;
+		vertical-align: top;
+		margin-left: 10px;
+		color: white;
+	}
+	h2.carousel-title {
+		margin-left: 15px;
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-size: .8em;
+		letter-spacing: .2em;
+		text-align: left;
+		color: white;
+	}
+	.left-carousel {
+		background-color: #418fb3;
+		display: flex;
+		flex-direction: row;
+		padding-top: 1em;
+	}
+	.right-carousel {
+		display: flex;
+		flex-direction: row;
+		background-color: #14171945;
+		padding-top: 1em;
+	}
+	.slick-dots li button:before{
+			color: white!important;
+	}
+	.slick-dots li.slick-active button:before{
+    color: white!important;
+	}
+	.carousel-lable {
+		width: 33%;
+		vertical-align: top;
+	}
+	.slick-current {
+    opacity: 1!important;
+	}
+	.slick-slide img{
+		height: 15em;
+		padding: .5em;
+	}
+	.slick-slide {
+		opacity: 0.7;
+	}
 	.workProgress a{
 		background-color: #b34141;
 		width: 50%;
