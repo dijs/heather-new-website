@@ -703,6 +703,15 @@
 		}
 	}
 	@media screen and (max-width: 850px) {
+		.list h3 {
+			font-size: .7em;
+		}
+		.list {
+			margin-left: 10%;
+		}
+		.serviceRow {
+    flex-wrap: wrap;
+		}
 		.right-carousel, .left-carousel {
 			display: block;
 			padding-bottom: .5em;
@@ -734,6 +743,18 @@
 		}
 	}
 	@media screen and (max-width: 550px) {
+		.list{
+			display: block;
+		}
+		.column-3 {
+			width: 100%;
+		}
+		.list h3 {
+			font-size: 1em;
+		}
+		.serviceOption {
+    	padding: 1em;
+		}
 		.watercolor, .full-width {
 			display: block;
 	    width: 82%;
