@@ -30,6 +30,12 @@
     margin-left: 3em;
 		margin-right: 3em;
 	}
+	.full-width {
+		width: 100%;
+		display: flex;
+    margin-left: 3em;
+		margin-right: 3em;
+	}
 	h1.carousel-title {
 		margin: 0;
 		border: 0;
@@ -39,11 +45,13 @@
 		text-align: left;
 		letter-spacing: -.04em;
 		vertical-align: top;
-		margin-left: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
 		color: white;
 	}
 	h2.carousel-title {
-		margin-left: 15px;
+		margin-left: 20px;
+		margin-right: 20px;
 		font-family: "Open Sans", Arial, Helvetica, sans-serif;
 		font-size: .8em;
 		letter-spacing: .2em;
@@ -56,11 +64,27 @@
 		flex-direction: row;
 		padding-top: 1em;
 	}
-	.right-carousel {
+	.right-carousel{
 		display: flex;
 		flex-direction: row;
 		background-color: #14171945;
 		padding-top: 1em;
+	}
+	.full-carousel {
+		background-color: #14171945;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		width: 100%;
+		padding-left: 0;
+		padding-right: 25px;
+		text-align: center;
+		margin: 0;
+	}
+	.full-width{
+		width: 94%;
+		margin-left: 3em;
+		margin-top: 0;
+		margin-right: 2em;
 	}
 	.slick-dots li button:before{
 			color: white!important;
