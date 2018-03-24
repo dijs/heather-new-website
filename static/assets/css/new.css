@@ -24,12 +24,37 @@
 	a {
 		text-decoration: none;
 	}
+	.funFont {
+		margin: 0!important;
+		margin-top: 20px!important;
+		border: 0;
+		font-size: 2em!important;
+		font-family: "Courgette", Arial, Helvetica, sans-serif;
+		text-decoration: none;
+		text-align: left;
+		letter-spacing: -.04em;
+		color: black;
+	}
+	#mc_embed_signup .mc-field-group input{
+		background-color: #d0dbe0;
+	}
+	#mc_embed_signup .button{
+		background-color: #418eb3!important;
+	}
+	#mc_embed_signup .button:hover{
+		background-color: #d0dbe0!important;
+	}
+	#mc_embed_signup .mc-field-group label {
+		font-family: "Open Sans", Arial, Helvetica, sans-serif;
+		font-size: .8em;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
 	.watercolor {
 		width: 66%;
 		display: flex;
     margin-left: 3em;
 		margin-right: 3em;
-	}
 	}
 	h1.carousel-title {
 		margin: 0;
